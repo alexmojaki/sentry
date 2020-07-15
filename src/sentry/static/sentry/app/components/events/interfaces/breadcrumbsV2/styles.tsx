@@ -55,6 +55,7 @@ const GridCell = styled('div')<{
 `;
 
 const GridCellLeft = styled(GridCell)`
+  height: 100%;
   align-items: center;
   line-height: 1;
   padding: ${space(1)} ${space(0.5)} ${space(1)} ${space(1)};

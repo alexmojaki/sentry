@@ -80,8 +80,8 @@ class Breadcrumbs extends React.Component<Props, State> {
     this.setState(
       prevState => ({
         filteredBySearch: prevState.breadcrumbs,
-      }),
-      this.scrollToTheBottom
+      })
+      // this.scrollToTheBottom
     );
   }
 
